@@ -3,7 +3,16 @@ homework
 bash
 git init
 bash
-git add main.cpp
+git add main.cpp {
+cpp
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << ''Hello, SWE 103!'' << endl;
+       return 0;
+} 
 bash
 git commit -m ''Initial commit: Hello SWE 103''
 bash
